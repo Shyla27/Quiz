@@ -1,0 +1,20 @@
+body {
+  background-image: url(sun.jpg)
+  font-family: serif;
+  font-style: italic;
+  font-size: 20px;
+  font: gill sans;
+}
+.scroll {
+  background-color: teal;
+  font-size: 30px;
+}
+.test {
+  align-content: center;
+}
+.box {
+background-color: green;
+background-size: contain;
+border: 1px;
+display: block;
+}
