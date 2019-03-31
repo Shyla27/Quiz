@@ -2,13 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/styles.css">
     <title>QUIZ BOARD</title>
   </head>
   <body>
 <h1> NAN TECH</h1>
+<div class="scroll">
 <marquee scrollamount="10"
 direction="left" behavior="scroll">
 JAVASCRIPT TEST!! </marquee>
+</div>
 <!-- Question1 -->
 <label for="Q1"> What operating system is ideal to use for a programmer?(5 mrks)</label> <br>
 <input type="radio" name="Q1" value="0" > windows<br>
@@ -23,6 +27,7 @@ JAVASCRIPT TEST!! </marquee>
 <!--Question3 -->
 <br>
 <label for="Q3"> Which of this is not a primitive data type?(10mrks)</label>
+<br>
 <input type="radio" name="Q3" value="0">strings<br>
 <input type="radio" name="Q3" value="0">boolen<br>
 <input type="radio" name="Q3" value="0">undefined<br>
@@ -31,23 +36,47 @@ JAVASCRIPT TEST!! </marquee>
 
 <!--Question4-->
 <br>
-<label for="Q4">How do you create a javaScript function(10mrks)</label>
+<label for="Q4">How do you create a javaScript function(10mrks)</label><br>
 <input type="radio" name="Q4" value="0">function myFunction()<br>
 <input type="radio" name="Q4" value="0">function:myFunction()<br>
-<input type="radio" name="Q4" value="10">function=myFunction()<br>
+<input type="radio" name="Q4" value="10" required>function=myFunction()<br>
 <!--Question5-->
 <br>
 <label for="Q5">JavaScript and Java are the same (5 mrks)</label><br>
-<input type="radio" name="Q5" value="5">false<br>
+<input type="radio" name="Q5" value="5" required>false<br>
 <input type="radio" name="Q5" value="0">True<br>
 <!--Question6-->
 <br>
+<label for="Q6">Which event occurs when the user clicks on the HTML element?(5mrks)</label>
+<br>
+<input type="radio" name="Q6" value="0">oneclick<br>
+<input type="radio" name="Q6" value="5"required>onclick<br>
+<input type="radio" name="Q6" value="0">click<br>
 
+<!--Question7-->
+<br>
+<label for="Q6">Which operater is used to assign a value to a variable?(5 mrks)</label>
+<br>
+<input type="radio" name="Q7" value="0">*<br>
+<input type="radio" name="Q7" value="0">-<br>
+<input type="radio" name="Q7" value="5" required>=<br>
+<input type="radio" name="Q7" value="0">x<br>
 
+<!--Question8-->
+<br>
+<label for="radio" name="Q8">what is the correct way to write a JS array (5 mrks)</label><br>
+<input type="radio" name="Q8" value="0"> var cars ="bmw","audi","acura"<br>
+<input type="radio" name="Q8" value="5" required>var cars =["bmw","audi","acura"]<br>
+<input type="radio" name="Q8" value="0">var cars =("bmw","audi","acura")<br>
 
+ <button type="submit" class="btn btn-info" name="button">Submit</button>
 
+ <div id = "after_submit">
+   <p id = "number_count"></p>
+   </div>
 
-
-
+<script   src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   <script type="text/javascript" src="js/scripts.js">
+   </script>
   </body>
 </html>
