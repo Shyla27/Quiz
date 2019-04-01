@@ -1,20 +1,30 @@
 body {
-  background-image: url(sun.jpg)
+  background-image: url(images/se.jpg);
   font-family: serif;
   font-style: italic;
   font-size: 20px;
   font: gill sans;
 }
 .scroll {
-  background-color: teal;
+  background-color: lightblue;
   font-size: 30px;
 }
 .test {
   align-content: center;
 }
 .box {
-background-color: green;
-background-size: contain;
 border: 1px;
 display: block;
+}
+.query {
+  background-color: lightblue;
+  color: black;
+  font-size: 20px
+}
+.submit {
+  color: teal;
+  font-size: 20px;
+}
+.hey {
+  color: blueviolet;
 }
