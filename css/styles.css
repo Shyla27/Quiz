@@ -1,10 +1,4 @@
-body {
-  background-image: url(images/se.jpg);
-  font-family: serif;
-  font-style: italic;
-  font-size: 20px;
-  font: gill sans;
-}
+
 .scroll {
   background-color: lightblue;
   font-size: 30px;
@@ -27,4 +21,7 @@ display: block;
 }
 .hey {
   color: blueviolet;
+}
+.head {
+  background-color: aqua;
 }

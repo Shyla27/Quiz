@@ -11,7 +11,7 @@ html {
 }
 body {
   margin: 0;
-    background-image: url(images/se.jpg);
+    background-image: url(images/sun.jpg);
     font-family: serif;
     font-style: italic;
     font-size: 20px;
@@ -5043,7 +5043,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-image: url(images/sun.jpg);
+  background-color: inherit;
 }
 .jumbotron h1,
 .jumbotron .h1 {
